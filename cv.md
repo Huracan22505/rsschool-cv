@@ -8,3 +8,9 @@
 1. My skills: HTML, CSS, JS, Git.
 1. **Education:** I am currently studying on GOIT courses.
 1. **English:** My English level is about A2.
+1. **Code example:**
+   ```"use strict";
+   function shortenToDate(longDate) {
+     return longDate.replace(/(\d+am)|(\d+pm)|(,)/gi, '').trim()
+   }
+   ```
