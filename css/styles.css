@@ -1,0 +1,16 @@
+/* utility */
+
+.list {
+  margin: 0;
+  list-style: none;
+}
+
+/* CV-markup */
+
+.cv-section {
+  text-align: center;
+}
+
+.about-me .item {
+  margin-bottom: 5px;
+}
