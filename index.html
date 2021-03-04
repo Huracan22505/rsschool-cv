@@ -3,33 +3,136 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <title>CV</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Alexander Huracan</title>
   </head>
   <body>
-    <section class="cv-section">
-      <h1>Resume</h1>
-      <h2>Alexander Huracan</h2>
-      <img src="./images/3Aoa6mEYKdE.jpg" alt="two cats" width="150px" />
-      <ul class="about-me list">
-        <li class="item">
-          Contact info: e-mail:
-          <a href="mailto:nokia2611@mail.ru">nokia2611@mail.ru</a>
-        </li>
-        <li class="item">
-          My strong point is having a lot of free time to learn programming. If
-          I took up something, I will finish it. I am ready to study 24/7.
-        </li>
-        <li class="item">My skills: HTML, CSS, JS, Git.</li>
-        <li class="item">
-          Education: I am currently studying on GOIT courses.
-        </li>
-        <li class="item">English: My English level is about A2.</li>
-        <li class="item">
-          Code example: "use strict"; function shortenToDate(longDate) { return
-          longDate.replace(/(\d+am)|(\d+pm)|(,)/gi, '').trim() }
-        </li>
-      </ul>
-    </section>
+    <div class="container">
+      <div class="side-bar-container">
+        <div>
+          <img class="my-photo" src="./images/avatar.jpg" alt="avatar" />
+        </div>
+
+        <aside>
+          <div class="contacts-container">
+            <h1 class="name">Alexander Huracan</h1>
+            <h2 class="aside-headers">Contact me</h2>
+
+            <a class="contacts" href="tel:+380664553021">+380 66 455 30 21</a>
+            <br />
+
+            <a class="contacts" href="mailto:alexander_huracan11@gmail.com"
+              >huracan@gmail.com</a
+            >
+          </div>
+
+          <div class="skills-container">
+            <h2 class="aside-headers">Tech Skills</h2>
+            <ul>
+              <li class="list marker">HTML5</li>
+              <li class="list marker">CSS3</li>
+              <li class="list marker">JavaScript</li>
+              <li class="list marker">TypeScript</li>
+              <li class="list marker">React</li>
+              <li class="list marker">Node.js</li>
+            </ul>
+          </div>
+
+          <div class="skills-container">
+            <h2 class="aside-headers">Soft Skills</h2>
+            <ul>
+              <li class="list marker">Scrum</li>
+              <li class="list marker">Agile</li>
+              <li class="list marker">GTD</li>
+              <li class="list marker">Teamwork</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+
+      <section class="expirience">
+        <div>
+          <h3 class="desired-position">Full Stack Developer (React + Node)</h3>
+
+          <p class="main-text">
+            My strong point is having a lot of free time to learn programming.
+            If I took up something, I will finish it. I am ready to study 24/7.
+            My English level is about A2.
+          </p>
+        </div>
+
+        <div class="projects-container">
+          <h4 class="headers">Projects</h4>
+          <ul>
+            <li class="project list marker">
+              <a
+                class="project-link"
+                href="https://huracan22505.github.io/30-movies-to-mars/"
+                target="_blank"
+              >
+                30-movies-to-Mars (click)
+              </a>
+              <span class="used-stack"
+                >Vanilla JS team project. Tech Stack: HTML, CSS, JavaScript,
+                Node.js, Git, Markdown.
+              </span>
+            </li>
+
+            <li class="project list marker">
+              <a
+                class="project-link"
+                href="https://huracan22505.github.io/goit-js-hw-13-image-finder/"
+                target="_blank"
+                >Image finder (click)
+              </a>
+              <span class="used-stack"
+                >A small application to search and view images by keyword. Tech
+                Stack: HTML, CSS, JavaScript, Node.js, Rest API.</span
+              >
+            </li>
+
+            <li class="project list marker">
+              <a
+                class="project-link"
+                href="https://marinessa393.github.io/DevCat/"
+                target="_blank"
+                >DevCat (click)
+              </a>
+              <span class="used-stack"
+                >A fun team project. Tech Stack: HTML, CSS, JavaScript, Node.js,
+                Parcel.
+              </span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="courses-container">
+          <h4 class="headers">Courses</h4>
+          <h5 class="company-name">Go IT / Full Stack Developer</h5>
+          <p class="learning-period">June 2020 - June 2021</p>
+          <ul>
+            <li class="list marker">HTML+CSS</li>
+            <li class="list marker">JavaScript</li>
+            <li class="list marker">React</li>
+            <li class="list marker">Node</li>
+          </ul>
+        </div>
+
+        <div class="education-container">
+          <h4 class="headers">Education</h4>
+          <h5 class="company-name">
+            Hogwarts School of Witchcraft and Wizardry
+          </h5>
+          <p class="learning-period">September 2013 - June 2017 | Scotland</p>
+          <p class="specialization">Defence Against the Dark Arts</p>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
