@@ -42,12 +42,12 @@
   font-size: 8px;
   display: inline-block;
   margin: 0;
-  color: white;
+  color: rgb(20, 20, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
-    color: silver;
+    color: rgb(50, 11, 192);
   }
 
   @media screen and (min-width: 1200px) {
@@ -58,9 +58,7 @@
 .side-bar-container {
   width: 100px;
   padding: 15px 0px;
-  background-color: #0b6cec;
-
-  border-radius: 10px;
+  background-color: #c7ca93;
 
   @media screen and (min-width: 480px) {
     width: 120px;
@@ -77,7 +75,7 @@
 .aside-headers {
   margin-bottom: 7px;
   font-size: 10px;
-  color: #061e61;
+  color: #c57814;
   @media screen and (min-width: 480px) {
   }
   @media screen and (min-width: 768px) {

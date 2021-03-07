@@ -1,4 +1,5 @@
 .expirience {
+  background-color: #dadfbf;
   padding: 10px;
 
   @media screen and (min-width: 768px) {
@@ -8,6 +9,7 @@
     padding: 50px 50px;
   }
 }
+
 .main-text {
   margin: 0;
   margin-bottom: 10px;
@@ -21,6 +23,7 @@
     margin-bottom: 25px;
   }
 }
+
 .desired-position {
   margin: 0;
   margin-bottom: 10px;
@@ -33,20 +36,24 @@
     font-size: 30px;
   }
 }
+
 .headers {
   margin: 0;
   margin-bottom: 10px;
   font-size: 12px;
   @media screen and (min-width: 1200px) {
-    font-size: 20px;
+    font-size: 24px;
   }
 }
+
 .projects-container {
   margin-bottom: 15px;
 }
+
 .project {
   display: flex;
 }
+
 .project-link {
   display: flex;
   align-items: center;
@@ -61,13 +68,14 @@
   &:hover,
   &:focus {
     color: white;
-    background-color: #1b32726b;
+    background-color: #7685206b;
   }
   @media screen and (min-width: 768px) {
     padding: 20px 10px;
     font-size: 17px;
   }
 }
+
 .used-stack {
   width: 80%;
   padding: 5px;
@@ -80,6 +88,7 @@
     font-size: 17px;
   }
 }
+
 .company-name {
   font-size: 10px;
   margin-bottom: 10px;
@@ -90,6 +99,7 @@
     font-size: 17px;
   }
 }
+
 .learning-period {
   font-size: 10px;
   margin-bottom: 8px;
@@ -100,12 +110,19 @@
     font-size: 17px;
   }
 }
+
 .courses-container {
   margin-bottom: 20px;
 }
+
+.courses-list {
+  display: flex;
+}
+
 .education-container {
   margin-bottom: 20px;
 }
+
 .specialization {
   font-size: 10px;
   @media screen and (min-width: 768px) {
